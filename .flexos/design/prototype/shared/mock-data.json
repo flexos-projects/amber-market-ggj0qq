@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "id": "users-1",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    },
+    {
+      "id": "users-2",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    },
+    {
+      "id": "users-3",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "products-1",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    },
+    {
+      "id": "products-2",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    },
+    {
+      "id": "products-3",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "categories-1",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    },
+    {
+      "id": "categories-2",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    },
+    {
+      "id": "categories-3",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "orders-1",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    },
+    {
+      "id": "orders-2",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    },
+    {
+      "id": "orders-3",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "reviews-1",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    },
+    {
+      "id": "reviews-2",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    },
+    {
+      "id": "reviews-3",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "favorites-1",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    },
+    {
+      "id": "favorites-2",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    },
+    {
+      "id": "favorites-3",
+      "createdAt": "2026-02-07T18:47:39.761Z",
+      "updatedAt": "2026-02-07T18:47:39.761Z"
+    }
+  ],
+  "currentUser": {
+    "id": "user-1",
+    "name": "Demo User",
+    "email": "demo@example.com"
+  }
+}

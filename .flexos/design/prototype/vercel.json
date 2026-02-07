@@ -1,0 +1,55 @@
+{
+  "rewrites": [
+    {
+      "source": "/index",
+      "destination": "/landing-page-v1.html"
+    },
+    {
+      "source": "/auth",
+      "destination": "/auth-page-v1.html"
+    },
+    {
+      "source": "/shop",
+      "destination": "/shop-browse-page-v1.html"
+    },
+    {
+      "source": "/shop/:slug",
+      "destination": "/product-detail-page-v1.html"
+    },
+    {
+      "source": "/cart",
+      "destination": "/shopping-cart-page-v1.html"
+    },
+    {
+      "source": "/checkout",
+      "destination": "/checkout-page-v1.html"
+    },
+    {
+      "source": "/dashboard/buyer",
+      "destination": "/buyer-dashboard-page-v1.html"
+    },
+    {
+      "source": "/dashboard/seller",
+      "destination": "/seller-dashboard-page-v1.html"
+    },
+    {
+      "source": "/dashboard/seller/product/:id?",
+      "destination": "/add-edit-product-page-v1.html"
+    },
+    {
+      "source": "/settings",
+      "destination": "/settings-page-v1.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/shared/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000"
+        }
+      ]
+    }
+  ]
+}
