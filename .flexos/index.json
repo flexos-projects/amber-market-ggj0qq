@@ -1,0 +1,94 @@
+{
+  "files": {
+    "/.flexos/specs/002-features_product-listing-management.md": {
+      "id": "product-listing-management",
+      "title": "Artisan Product Listing & Management",
+      "description": "Empowers artisans to effortlessly create detailed product listings with multiple images, comprehensive descriptions, pricing, inventory tracking, and shipping options. They can also edit or remove listings easily through their dashboard.",
+      "type": "spec",
+      "subtype": "features",
+      "status": "draft",
+      "tags": [
+        "artisan",
+        "product",
+        "listing",
+        "management",
+        "inventory"
+      ],
+      "relatesTo": [
+        "pages_add-edit-product-page",
+        "pages_seller-dashboard-page",
+        "collections_products"
+      ],
+      "updatedAt": "2026-02-07T21:52:18.008Z"
+    },
+    "/.flexos/specs/003-pages_shop-browse-page.md": {
+      "id": "shop-browse-page",
+      "title": "Shop / Browse Products Page",
+      "description": "The main product discovery page, displaying a grid of handmade items. Users can browse by categories, apply various filters, and use a search bar to find specific crafts.",
+      "type": "spec",
+      "subtype": "pages",
+      "status": "draft",
+      "tags": [
+        "shop",
+        "browse",
+        "products",
+        "discovery",
+        "search",
+        "filter"
+      ],
+      "relatesTo": [
+        "features_browse-search-filter",
+        "features_favorites-wishlist",
+        "collections_products",
+        "collections_categories"
+      ],
+      "updatedAt": "2026-02-07T21:52:23.057Z"
+    },
+    "/.flexos/specs/004-flows_buyer-purchases-item.md": {
+      "id": "buyer-purchases-item",
+      "title": "Buyer Purchases an Item Flow",
+      "description": "A buyer browses products, adds them to a cart, and completes a secure checkout process.",
+      "type": "spec",
+      "subtype": "flows",
+      "status": "draft",
+      "tags": [
+        "buyer",
+        "purchase",
+        "checkout",
+        "cart",
+        "payment"
+      ],
+      "relatesTo": [
+        "features_secure-cart-checkout",
+        "pages_product-detail-page",
+        "pages_shopping-cart-page",
+        "pages_checkout-page",
+        "collections_orders"
+      ],
+      "updatedAt": "2026-02-07T21:52:28.925Z"
+    },
+    "/.flexos/specs/005-database_products.md": {
+      "id": "products",
+      "title": "Products Data Collection",
+      "description": "Contains details for all handmade products listed by artisans.",
+      "type": "spec",
+      "subtype": "database",
+      "status": "draft",
+      "tags": [
+        "data",
+        "collection",
+        "products",
+        "artisan",
+        "inventory"
+      ],
+      "relatesTo": [
+        "features_product-listing-management",
+        "pages_shop-browse-page",
+        "pages_product-detail-page",
+        "collections_users",
+        "collections_categories"
+      ],
+      "updatedAt": "2026-02-07T21:52:33.940Z"
+    }
+  }
+}

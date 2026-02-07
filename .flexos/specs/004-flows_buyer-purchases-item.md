@@ -1,16 +1,29 @@
 ---
 id: buyer-purchases-item
 title: Buyer Purchases an Item Flow
-description: A buyer browses products, adds them to a cart, and completes a secure checkout process.
+description: >-
+  A buyer browses products, adds them to a cart, and completes a secure checkout
+  process.
 type: spec
-subtype: flow
+subtype: flows
 status: draft
 sequence: 4
-tags: ["buyer", "purchase", "checkout", "cart", "payment"]
-relatesTo: ["features_secure-cart-checkout", "pages_product-detail-page", "pages_shopping-cart-page", "pages_checkout-page", "collections_orders"]
+tags:
+  - buyer
+  - purchase
+  - checkout
+  - cart
+  - payment
+relatesTo:
+  - features_secure-cart-checkout
+  - pages_product-detail-page
+  - pages_shopping-cart-page
+  - pages_checkout-page
+  - collections_orders
 createdAt: 2026-02-07T18:47:39.761Z
-updatedAt: 2026-02-07T18:47:39.761Z
+updatedAt: '2026-02-07T21:52:28.925Z'
 ---
+
 This flow outlines the critical path for a buyer to make a purchase on CraftMart, leveraging the `Secure Shopping Cart & Checkout` feature (`features_secure-cart-checkout`). It spans multiple pages, including the `Product Detail Page` (`pages_product-detail-page`), `Shopping Cart Page` (`pages_shopping-cart-page`), and `Checkout Page` (`pages_checkout-page`), ultimately resulting in a new entry in the `orders` collection (`collections_orders`).
 
 **Flow Steps & Details:**

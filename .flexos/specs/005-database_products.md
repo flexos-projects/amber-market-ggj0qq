@@ -3,14 +3,25 @@ id: products
 title: Products Data Collection
 description: Contains details for all handmade products listed by artisans.
 type: spec
-subtype: collection
+subtype: database
 status: draft
 sequence: 5
-tags: ["data", "collection", "products", "artisan", "inventory"]
-relatesTo: ["features_product-listing-management", "pages_shop-browse-page", "pages_product-detail-page", "collections_users", "collections_categories"]
+tags:
+  - data
+  - collection
+  - products
+  - artisan
+  - inventory
+relatesTo:
+  - features_product-listing-management
+  - pages_shop-browse-page
+  - pages_product-detail-page
+  - collections_users
+  - collections_categories
 createdAt: 2026-02-07T18:47:39.761Z
-updatedAt: 2026-02-07T18:47:39.761Z
+updatedAt: '2026-02-07T21:52:33.940Z'
 ---
+
 The `products` collection is central to CraftMart, storing all information about the handmade items available for sale. This collection is directly managed via the `Artisan Product Listing & Management` feature (`features_product-listing-management`) and is extensively queried by the `Shop / Browse Products Page` (`pages_shop-browse-page`) and `Product Detail Page` (`pages_product-detail-page`). It maintains relationships with `users` (for artisans) and `categories` collections.
 
 **Fields:**

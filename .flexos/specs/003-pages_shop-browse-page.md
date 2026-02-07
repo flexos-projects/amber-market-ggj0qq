@@ -1,16 +1,30 @@
 ---
 id: shop-browse-page
 title: Shop / Browse Products Page
-description: The main product discovery page, displaying a grid of handmade items. Users can browse by categories, apply various filters, and use a search bar to find specific crafts.
+description: >-
+  The main product discovery page, displaying a grid of handmade items. Users
+  can browse by categories, apply various filters, and use a search bar to find
+  specific crafts.
 type: spec
-subtype: page
+subtype: pages
 status: draft
 sequence: 3
-tags: ["shop", "browse", "products", "discovery", "search", "filter"]
-relatesTo: ["features_browse-search-filter", "features_favorites-wishlist", "collections_products", "collections_categories"]
+tags:
+  - shop
+  - browse
+  - products
+  - discovery
+  - search
+  - filter
+relatesTo:
+  - features_browse-search-filter
+  - features_favorites-wishlist
+  - collections_products
+  - collections_categories
 createdAt: 2026-02-07T18:47:39.761Z
-updatedAt: 2026-02-07T18:47:39.761Z
+updatedAt: '2026-02-07T21:52:23.057Z'
 ---
+
 The Shop / Browse Products Page (`/shop`) serves as the primary gateway for buyers to discover handmade items on CraftMart. It leverages the `Curated Browse, Search & Filter` feature (`features_browse-search-filter`) to provide a rich discovery experience. Products displayed on this page are sourced from the `products` collection (`collections_products`) and organized by `categories` (`collections_categories`). Users can also utilize the `Favorites & Wishlist` feature (`features_favorites-wishlist`) directly from product cards.
 
 **Page Sections:**

@@ -1,16 +1,29 @@
 ---
 id: product-listing-management
 title: Artisan Product Listing & Management
-description: Empowers artisans to effortlessly create detailed product listings with multiple images, comprehensive descriptions, pricing, inventory tracking, and shipping options. They can also edit or remove listings easily through their dashboard.
+description: >-
+  Empowers artisans to effortlessly create detailed product listings with
+  multiple images, comprehensive descriptions, pricing, inventory tracking, and
+  shipping options. They can also edit or remove listings easily through their
+  dashboard.
 type: spec
-subtype: feature
+subtype: features
 status: draft
 sequence: 2
-tags: ["artisan", "product", "listing", "management", "inventory"]
-relatesTo: ["pages_add-edit-product-page", "pages_seller-dashboard-page", "collections_products"]
+tags:
+  - artisan
+  - product
+  - listing
+  - management
+  - inventory
+relatesTo:
+  - pages_add-edit-product-page
+  - pages_seller-dashboard-page
+  - collections_products
 createdAt: 2026-02-07T18:47:39.761Z
-updatedAt: 2026-02-07T18:47:39.761Z
+updatedAt: '2026-02-07T21:52:18.008Z'
 ---
+
 This feature is crucial for artisans to populate CraftMart with their unique creations. It provides a comprehensive interface for adding, editing, and managing product details. Artisans will access this functionality primarily through the `Add/Edit Product Page` (`pages_add-edit-product-page`), linked from their `Seller Dashboard` (`pages_seller-dashboard-page`). The system will store all product information in the `products` collection (`collections_products`).
 
 **Key Functionality:**
