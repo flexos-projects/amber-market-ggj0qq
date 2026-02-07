@@ -21,8 +21,25 @@ relatesTo:
   - pages_checkout-page
   - collections_orders
 createdAt: 2026-02-07T18:47:39.761Z
-updatedAt: '2026-02-07T21:52:28.925Z'
+updatedAt: '2026-02-07T21:53:10.298Z'
 ---
+
+<flex_block type="flow">
+{
+  "steps": [
+    {
+      "type": "action",
+      "name": "User starts",
+      "actor": "user"
+    },
+    {
+      "type": "action",
+      "name": "System responds",
+      "actor": "system"
+    }
+  ]
+}
+</flex_block>
 
 This flow outlines the critical path for a buyer to make a purchase on CraftMart, leveraging the `Secure Shopping Cart & Checkout` feature (`features_secure-cart-checkout`). It spans multiple pages, including the `Product Detail Page` (`pages_product-detail-page`), `Shopping Cart Page` (`pages_shopping-cart-page`), and `Checkout Page` (`pages_checkout-page`), ultimately resulting in a new entry in the `orders` collection (`collections_orders`).
 
